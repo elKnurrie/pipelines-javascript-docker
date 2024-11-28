@@ -21,6 +21,7 @@ variables:
 
 stages:
 - stage: Build
+  pool: managed-devops-ubuntu
   displayName: Build and push stage
   jobs:
   - job: Build
