@@ -12,7 +12,7 @@ variables:
   # Container registry service connection established during pipeline creation
   dockerRegistryServiceConnection: '3c70ae9e-2475-4fe9-b296-d1c95ab06256'
   imageRepository: 'elknurriepipelinesjavascriptdocker'
-  containerRegistry: 'acraccentrytst01.azurecr.io'
+  containerRegistry: 'acraccentrytst01.privatelink.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/app/Dockerfile'
   tag: '$(Build.BuildId)'
 
